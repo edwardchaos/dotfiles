@@ -1,9 +1,9 @@
 [user]
-  email = teejayyang35@gmail.com 
-  name = TJ Yang 
+  email = edward_888@hotmail.com
+  name = Edward Chao
 
 [github]
-  user = teejayyang
+  user = edwardchaos
 
 [core]
   excludesfile = ~/.gitignore_global
@@ -111,5 +111,5 @@
   followTags = true
 
 [credential "https://github.com"]
-  username = teejayang
+  username = edwardchaos
 
