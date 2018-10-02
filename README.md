@@ -21,9 +21,9 @@ dmenu           ->  rofi
 2. Execute 'sudo bash install.sh'
 3. Make virtual environment 'mkvirtualenv <name>'
 4. pip3 install dotinstall
-5. dotinstall in dotfiles root dir
+5. dotinstall in dotfiles root dir of this repo
 6. run installi3gaps.sh
-7. manually make install xcwd
+7. manually make install [xcwd](https://github.com/schischi/xcwd)
 8. reboot
 9. At login menu, click on the gear and select i3
   
