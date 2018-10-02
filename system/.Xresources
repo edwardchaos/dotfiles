@@ -26,7 +26,7 @@ URxvt*scrollTtyKeypress:        true
 
 ! Dracula Color Scheme
 *.foreground: #F8F8F2
-*.background: #282A36
+*.background: [50]#282A36
 *.color0:     #000000
 *.color8:     #4D4D4D
 *.color1:     #FF5555
