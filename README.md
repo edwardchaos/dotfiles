@@ -1,4 +1,5 @@
 # dotfiles
+
 Configs for Linux
 
 # Software
@@ -14,5 +15,15 @@ terminal        ->  urxvt
 dmenu           ->  rofi
 ```
 
+How to install:
+
+` Fresh Ubuntu install
+` Execute 'sudo bash install.sh'
+` Make virtual environment 'mkvirtualenv <name>'
+` pip3 install dotinstall
+` dotinstall in dotfiles root dir
+` run installi3gaps.sh
+` manually make install xcwd
+` reboot
 # Screenshots
 ![](screenshots/2018_07_14.png "Fake Dirty")

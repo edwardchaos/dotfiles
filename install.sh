@@ -11,7 +11,6 @@ sudo pip3 install virtualenvwrapper
 
 #Curl for gettig i3gaps
 sudo apt install curl
-sudo bash ./installi3gaps.sh
 
 #Setup symlinks for dot files
 sudo bash ./symlink.sh
