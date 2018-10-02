@@ -98,6 +98,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
   augroup END
 endif
+
 call plug#begin('~/.vim/bundle')
 " color scheme
 " dynamic colorscheme

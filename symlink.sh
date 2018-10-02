@@ -8,16 +8,16 @@ shopt -s nullglob
 shopt -s dotglob
 
 ## Link to ~
-for folder in vim system git; do
+for folder in vim git; do
     for f in $DOTFILES_DIR/$folder/*; do
-        ln -sfv "$f" ~
+        ln -sfv "$f" ~ #Symlink, force, verbose
     done
 done
 
 ## Link to ~/.$folder
 for folder in bin; do
   # rm -rf ~/.$folder
-  mkdir -pv ~/.$folder
+  mkdir -pv ~/.$folder #Make parent directories, verbose
   for f in $DOTFILES_DIR/$folder/*; do
     ln -sfv "$f" ~/.$folder
   done
